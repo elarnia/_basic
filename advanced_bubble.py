@@ -2,7 +2,7 @@
 
 ## advanced_bubble.py
 ## A program providing an OOP solution to the bubble sort.
-## Sorts lists stored in arrays in ascending order.
+## Sorts lists in ascending order.
 ## Author: Samuel Patrick
 ## Date: 9/13/16
 
