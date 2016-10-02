@@ -2,7 +2,7 @@
 
 ## bubble_sort.py
 ## A program providing a non OOP solution to the bubble sort.
-## Sorts lists stored in arrays in ascending order.
+## Sorts lists in ascending order.
 ## Author: Samuel Patrick
 ## Date: 9/13/16
 
