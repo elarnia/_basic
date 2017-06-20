@@ -20,12 +20,12 @@ def dice_roll(y):
 
 #A function to generate change for a dollar
 def rand_change():
-    change = generator() % 99
+    change = generator() % 100
     return change
 
 #A function for guessing somethings weight
 def weight_guess(x,y):
-    weight = (generator() + x) % y + 1
+    weight = generator() % (y-x) + x
     return weight
 
 #The Penny Jar Game
