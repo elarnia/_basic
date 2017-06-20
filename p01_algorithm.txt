@@ -14,6 +14,6 @@
   a. If a swap is performed set the list to unsorted
 9. Check if the end of the list has been reached
 10. Check if the list is sorted
-  a. If it sorted go to step 11
+  a. If it is sorted go to step 11
   b. If it is not sorted go back to step 6
 11. Print the sorted list to the screen
