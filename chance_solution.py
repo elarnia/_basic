@@ -93,23 +93,23 @@ def weight_game():
 	age = int(age)
 	height = input('How tall are you? (inches) : ')
 	height = int(height)
-	low = 70
-	high = 300
+	low = 50
+	high = 200
 	
 	#Change the weight range based on height and age
-	if age > 20:
+	if age > 18:
 		low += 20
 		high += 50
 	else:
-		low -= 20
-		high -= 50
+		low -= 10
+		high -= 40
 		
 	if height > 60:
 		low += 20
 		high += 50
 	else:
-		low -= 30
-		high -= 50
+		low -= 10
+		high -= 40
 		
 	user = input('How much do you weigh? (pounds) : ')
 	user = int(user)
@@ -117,7 +117,7 @@ def weight_game():
 	print('I am going to guess your weight is between ', (guess - 10), ' and ' , (guess + 10))
 		
 		
-	if user > (guess - 10) and user < (guess + 10):
+	if user >= (guess - 10) and user <= (guess + 10):
 		print('I was right!')
 	else:
 		print("Are you sure that's right?")
